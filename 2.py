@@ -1,4 +1,10 @@
 print("Data types ,condition,loops and function")
+x='boring'
+def myfunc():
+  print("Python is " + x)
+
+myfunc()
+
 a=10            #int
 b=3.14          #float
 c='Your_Name'   #str
@@ -16,3 +22,19 @@ print(type(e),e)
 print(type(f),f)
 print(type(g),g)
 print(type(h),h)
+
+if a<16:
+    print("smaller")
+else :
+    print("larger")
+x, y, z = "Orange", "Banana", "Cherry"
+f = ["apple", "banana", "cherry"]
+x, y, z = f
+print(x)
+print(y)
+print(z)
+
+i=6
+while i>0:
+    print(i)
+    i-=1
